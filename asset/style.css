@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #191919;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0; 
+} 
+
+.container {
+    padding: 25px; 
+    width: 300px;
+    border-radius: 27px;
+    text-align: center;
+    background-color: rgb(222, 80, 19);
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 1px 1px 30px rgba(8, 7, 16, 0.6);
+    transition: all 1s;
+} 
+
+h2, h3 {
+     margin: 10px 0; 
+} 
+
+input { 
+    padding: 10px; 
+    width: 74%; 
+    border-radius: 5px; 
+    background-color: #fff9c4dd; 
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    margin-bottom: 10px; 
+} 
+input:focus{
+    outline: none;
+}
+
+button { 
+    padding: 10px; 
+    width: 80%; 
+    background-color: #3f3a38c1;
+    border: 1px solid rgba(255, 255, 255, 0.105);
+    color: #FFF9C4; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: all .8s;
+
+} 
+
+button:hover {
+    color: black; 
+    background: rgba(255,255,255,0.5);
+}
+
+ul { 
+    list-style-type: none; 
+    padding: 0; 
+}
+
+ul li {
+    background-color: #fff9c4e3; 
+    margin: 5px 0; 
+    padding: 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: all .9s;
+
+}
+li.removing{
+    opacity: 0;
+    transform:scale(1.1);
+}
+
+ ul li:hover { 
+    background-color: #fff9c4a7; 
+    text-decoration: line-through; 
+}
